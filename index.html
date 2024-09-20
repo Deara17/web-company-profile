@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANORE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="js/swiper-bundle.min.js">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!--=============== HOME ===============-->
+    <section class="header">
+        <nav id="navbar">
+            <a href="index.html"><img src="images/logo v.3.svg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href= "#about-us">ABOUT</a></li>
+                    <li><a href="#our-services">SERVICES</a></li>
+                    <li><a href="#our-projects">PROJECTS</a></li>
+                    <li><a href="#testimony">TESTIMONIALS</a></li>
+                    <li><a href="#contact-us">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <video autoplay loop muted class="banner-vid">
+            <source src="images/banner-vid.mp4" type="video/mp4">
+        </video>
+
+        <div class="text-box">
+            <h1>Welcome to ANORE: Another Reality</h1>
+            <p>We aim to be the leading company in the sector of social commerce, Metaverse, AI, 
+                and Immersive Technologies Especially In Indonesia and SEA. <br> 
+                Anore is an IT company that provides services related to augmented reality (AR), 
+                Virtual Reality (VR), Website Development, NFT, and metaverse-related technologies 
+                to promote your business or personal brand.</p>
+            <a href="#contact-us" class="hero-btn">Join with us</a>
+
+        </div>
+    </section>
+
+    <!--=============== ABOUT US ===============-->
+    <section id="about-us" class="about-us">
+            <div class="about-col">
+                <span class="normal-text">About</span>
+                <span class="text-gradient">Us</span>
+                <p>We are a technology company offering innovative solutions for businesses of all sizes, 
+                focusing on augmented reality (AR) and IT services. Our platform enhances digital marketing 
+                and business models, providing immersive AR experiences. We tailor IT solutions to meet client needs, 
+                helping them achieve their goals and stay competitive in today's digital landscape.</p>
+            </div>
+
+            <div class="about-col">
+                <img src="images/about-us.svg">
+            </div>
+    </section>
+
+    <section class="vision-mission">
+        <div class="divider">
+            <span class="normal-text">Our</span>
+            <span class="text-gradient">Vision</span>
+        </div>
+        <div class="our-vision">
+            <p class="text-container">Improve the competitive scene of commerce and business especially for UMKM/SMEs 
+                in Indonesia and South East Asia with VR, AR, and Metaverse based services via providing XR and
+                Social commerce platform, IT and metaverse related products, or consultation.</p>
+        </div>
+        
+        <div class="divider">
+            <span class="normal-text">Our</span>
+            <span class="text-gradient">Mission</span>
+        </div>
+        <div class="our-mission">
+            <p class="text-container">Ensuring our client SMEs reaches growth for their business with our product services</p>
+            <p class="text-container">Ensuring our client SMEs satisfied with our AR/VR product or any technological product 
+            and services that we provide</p>
+        </div>
+
+        <div class="divider">
+            <span class="normal-text">Check why it is worth</span>
+            <span class="text-gradient">Using AR?</span>
+        </div>
+        <div class="ar-point">
+            <div class="point-container">
+                <img src="/images/Group 45.svg" alt="">
+                <p class="text-center">AR helps Lower Product Return Rates</p>
+            </div>
+            <div class="point-container">
+                <img src="/images/Group 46.svg" alt="">
+                <p class="text-center">AR Preferred by Next Generation Buyers (Zillenials)</p>
+            </div>
+            <div class="point-container">
+                <img src="/images/Group 47.svg" alt="">
+                <p class="text-center">Turn Visitors into Customers with Augmented Reality Experiences</p>
+            </div>
+            <div class="point-container">
+                <img src="/images/Group 44.svg" alt="">
+                <p class="text-center">AR Visualizations for Confident Shopping Decisions.</p>
+            </div>
+        </div>
+
+    </section>
+
+        
+    <!--=============== OUR SERVICES ===============-->
+    <section id="our-services" class="services">
+
+        <div class="divider">
+            <span class="normal-text">Our</span>
+            <span class="text-gradient">Services</span>
+        </div>
+        <p>Discover how Anore can elevate your brand with our expert solutions.</p>
+
+        <div class="services-row">
+            <div class="services-col">
+                <img src="images/augmented-reality.gif" alt="">
+                <h3>AR <br> Implementation</h3>
+                <a href="#popup1"><button class="btn-details">Details</button></a>
+            </div>
+            <div class="services-col">
+                <img src="images/html.gif" alt="">
+                <h3>Web <br> Development</h3>
+                <a href="#popup2"><button class="btn-details">Details</button></a>
+            </div>
+            <div class="services-col">
+                <img src="images/landing-page.gif" alt="">
+                <h3>UI <br> Design</h3>
+                <a href="#popup3"><button class="btn-details">Details</button></a>
+            </div>
+            <div class="services-col">
+                <img src="images/logo-design.gif" alt="">
+                <h3>Logo <br> Design</h3>
+                <a href="#popup4"><button class="btn-details">Details</button></a>
+            </div>
+            <div class="services-col">
+                <img src="images/branding.gif" alt="">
+                <h3>Brand <br> Identity</h3>
+                <a href="#popup5"><button class="btn-details">Details</button></a>
+            </div>
+
+            <div id="popup1" class="overlay">
+                <div class="popup">
+                    <div class="content-left">
+                        <img src="images/augmented-reality.gif" alt="">
+                        <h2>AR Implementation</h2>
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Implementing Augmented Reality technology to enhance user interaction with products or services, creating immersive experiences.
+                    </div>
+                </div>
+            </div>
+            <div id="popup2" class="overlay">
+                <div class="popup">
+                    <div class="content-left">
+                        <img src="images/html.gif" alt="">
+                        <h2>Web <br> Development</h2>
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Developing responsive and functional websites with robust backend systems, ensuring optimal performance and user satisfaction.
+                    </div>
+                </div>
+            </div>
+            <div id="popup3" class="overlay">
+                <div class="popup">
+                    <div class="content-left">
+                        <img src="images/landing-page.gif" alt="">
+                        <h2>UI <br> Design</h2>        
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Designing intuitive and appealing user interfaces, ensuring smooth and efficient user experiences in applications or websites.                    </div>
+                </div>
+            </div>
+            <div id="popup4" class="overlay">
+                <div class="popup">
+                    <div class="content-left">
+                        <img src="images/logo-design.gif" alt="">
+                        <h2>Logo <br> Design</h2>
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Creating logos that reflect clients' unique identities, strengthening their brand image in the market.                </div>
+            </div>
+            </div>
+            <div id="popup5" class="overlay">
+                <div class="popup">
+                    <div class="content-left">
+                        <img src="images/branding.gif" alt="">
+                        <h2>Brand <br> Identity</h2>
+                    </div>
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        Building comprehensive brand identities, including visual elements and brand messaging, to differentiate clients from competitors and foster strong connections with their audience.
+            </div>
+            </div>
+        
+    </section>
+
+    <!--=============== OUR PROJECTS ===============-->
+    <section id="our-projects" class="projects">
+        <div class="divider">
+            <span class="normal-text">Our</span>
+            <span class="text-gradient">Projects</span>
+        </div>
+        <p>Take a look at our successful projects and see how Anore delivers exceptional results.</p>
+
+        <div class="row-projects">
+            <div class="projects-col one">
+                
+                <img src="images/UI Design.png" alt="">
+            </div>
+            <div class="projects-col two">
+                <img src="images/brand1.jpg" alt="">
+            </div>
+            <div class="projects-col three">
+                <img src="images/web dev.png" alt="">
+            </div>
+            <div class="projects-col four">
+                <video autoplay loop muted>
+                    <source src="images/showcase.mp4" type="video/mp4">
+                </video>
+               
+            </div>
+            <div class="projects-col five">
+                <img src="images/brand2.png" alt="">
+            </div>
+            <div class="projects-col six">
+                <img src="images/brandident.png" alt="">
+            </div>
+            <div class="projects-col seven">
+                <video autoplay loop muted>
+                    <source src="images/projects1.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+        </div>
+    </section>
+
+    </section>
+
+    <!--=============== TESTIMONIALS ===============-->
+    <section id="testimony" class="container">
+        <div class="testimonials">
+
+            <div class="divider">
+                <span class="normal-text">What Our</span>
+                <span class="text-gradient">Clients Say</span>
+            </div>
+            <p>Hear from our clients about their experiences and
+            the outstanding results Anore has delivered.</p>
+            </div>
+
+        <div class="card__container swiper">
+           <div class="card__content">
+              <div class="swiper-wrapper">
+
+                 <article class="card__article swiper-slide">
+                    <div class="card__data">
+                       <img src="images/johnsmith.avif" alt="">
+                       <h3 class="card__name">John Smith</h3>
+                       <p class="card__description">
+                        Anore's AR implementation added a new
+                        dimension to our customer interactions.
+                        It's innovative and captivating. Highly Recommended!
+                       </p>
+                       <div class="rate">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                       </div>
+                    </div>
+                 </article>
+     
+                 <article class="card__article swiper-slide">
+                    <div class="card__data">
+                       <img src="images/emily.avif" alt="">
+                       <h3 class="card__name"> Emily Brown</h3>
+                       <p class="card__description">
+                        Anore's logo design and brand identity
+                        services captured our essence perfectly.
+                        Their work is top-notch, reflecting true
+                        professionalism and creativity.
+                       </p>
+                       <div class="rate">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                       </div>
+                    </div>
+                 </article>
+     
+                 <article class="card__article swiper-slide">
+                    <div class="card__data">
+                       <img src="images/david.avif" alt="">
+                       <h3 class="card__name">David Lee</h3>
+                       <p class="card__description">
+                        Anore's expertise in web development and
+                        UI design exceeded our expectations. They
+                        delivered a site that's both functional
+                        and visually stunning
+                       </p>
+                       <div class="rate">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                       </div>
+                    </div>
+                 </article>
+     
+                 <article class="card__article swiper-slide">
+                    <div class="card__data">
+                       <img src="images/jessica.avif" alt="">
+                       <h3 class="card__name">Jessica Taylor</h3>
+                       <p class="card__description">
+                        Anore's AR implementation was a
+                        game-changer for our business. It added an
+                        interactive dimension that our customers love!
+                       </p>
+                       <div class="rate">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-o"></i>
+                       </div>
+                    </div>
+                 </article>
+
+                 <article class="card__article swiper-slide">
+                    <div class="card__data">
+                       <img src="images/clark.avif" alt="">
+                       <h3 class="card__name">Michael Clark</h3>
+                       <p class="card__description">
+                        Anore's logo design service helped us
+                        establish a strong brand identity. Their
+                        designs are modern and aligned perfectly with our vision.
+                       </p>
+                       <div class="rate">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-o"></i>
+                       </div>
+                    </div>
+                 </article>
+              </div>
+           </div>
+
+           <!-- Navigation buttons -->
+           <div class="swiper-button-next">
+              <i class="ri-arrow-right-s-line"></i>
+           </div>
+           
+           <div class="swiper-button-prev">
+              <i class="ri-arrow-left-s-line"></i>
+           </div>
+
+           <!-- Pagination -->
+           <div class="swiper-pagination"></div>
+        </div>
+     </section>
+
+    <!--=============== CONTACT US ===============-->
+    <section id="contact-us" class="contact-us">
+       
+        <div class="contact-row">
+
+            <div class="contact-col">
+                    <div class="divider">
+                        <span class="normal-text">Ready to</span>
+                        <span class="text-gradient">Explore more?</span>
+                    </div>
+                    <p class="text-center">Fill this form to join with us!</p>
+                    <img src="/images/Businessman using VR tech.svg" alt="">
+            </div>
+            
+            <div class="contact-col">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="3fb5d65f-2145-4de2-a99a-0eaa603cfd28">
+                    <input type="text" name="name" placeholder="Enter your name" required>
+                    <input type="email" name="email" placeholder="Enter email address" required>
+                    <input type="text" name="subject" placeholder="Enter your subject" required>
+                    <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== FOOTER ===============-->
+    <section class="footer">
+        <div class="footer-row">  
+            <div class="logo">
+                <img src="images/logo v.3.svg" alt="logo">
+            </div>
+            <div class="info">
+                <h3>Informations</h3>
+                <div class="details">
+                    <i class="fa fa-map-marker"></i>
+                    <div class="detail-text">
+                        <h4>Address</h4>
+                        <p>Jl.Pertanian II, No. 44, RT.005/RW.004, Lebak Bulus, <br> Jakarta Selatan, DKI Jakarta, 12440</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <i class="fa fa-phone"></i>
+                    <div class="detail-text">
+                        <h4>Phone</h4>
+                        <p>+62 812 3456 7891</p>
+                    </div>
+                </div>
+                <div class="details">
+                    <i class="fa fa-envelope"></i>
+                    <div class="detail-text">
+                        <h4>Mail</h4>
+                        <p>anore@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <a href="https://www.instagram.com/anore.id/"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/anore-group/"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://wa.me/62813978301"><i class="fa fa-whatsapp"></i></a>
+                </div>
+                <div class="license">
+                    <p>Copyright 2024. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-----Java Script for Toggle Menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+    if (window.pageYOffset > 0) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+    }
+</script>
+ <!--=============== SWIPER JS ===============-->
+ <script src="js/swiper-bundle.min.js"></script>
+
+ <!--=============== MAIN JS ===============-->
+ <script src="js/main.js"></script>
+
+</html>
