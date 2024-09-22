@@ -19,7 +19,7 @@ The website allows easy access to essential company information, providing a smo
 - **Swiper.js**: Implemented to create a responsive slider for showcasing projects and testimonials.
 - **Web3Forms**: Used to manage the contact form functionality without the need for a backend server.
 
-### Screenshots
-![Fullpage Screenshot](images/company-profile.png)
+### User Interface
+![Fullpage Interface](images/company-profile.png)
 
 *Figure 1. Fullpage view.*
